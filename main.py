@@ -33,7 +33,7 @@ for out in outs:
             center_y = int(detection[1] * height)
             w = int(detection[2] * width)
             h = int(detection[3] * height)
-            # Rectangle coordinates
+            # Rectangle coordinates were made
             x = int(center_x - w / 2)
             y = int(center_y - h / 2)
             boxes.append([x, y, w, h])
